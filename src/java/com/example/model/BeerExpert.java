@@ -33,6 +33,10 @@ public class BeerExpert {
                types.add("Indian Brown Ale");
                types.add("Lagunitas Sucks (Brown Shugga Substitute Ale)");
                break;
+           case "greek":
+               types.add("FIX");
+               types.add("Vergina");
+               break;
            default:
                break;
        }

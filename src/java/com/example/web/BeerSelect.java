@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package com.example.web;
 
 /**
  * Papadakis Gewrgios
  */
-
+import com.uthldap.Uthldap;
 import com.example.model.*;
 import java.io.*;
 import java.util.Iterator;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = {"/BeerSelection"})
+@WebServlet(urlPatterns = {"/BeerSelect"})
 public class BeerSelect extends HttpServlet {
 
  @Override
